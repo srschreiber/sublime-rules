@@ -4,7 +4,7 @@ type: "triage_rule"
 triage_classification_changes: true
 triage_asa_complete: true
 active: false
-default_actions: ["run_ade_automatically"]
+default_actions: ["ade_auto_review"]
 source: |
   (triage.trigger == "classification_changes" and triage.classification.classification =~ 'graymail')
   or (triage.trigger == "asa_complete" and agents.asa.verdict =~ "graymail")
