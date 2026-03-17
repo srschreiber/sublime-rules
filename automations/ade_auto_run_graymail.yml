@@ -1,4 +1,4 @@
-name: "Run ADE Automatically - Graymail"
+name: "ADE Auto Run - Graymail"
 description: "Run ADE Automatically"
 type: "triage_rule"
 triage_classification_changes: true

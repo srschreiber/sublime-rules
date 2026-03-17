@@ -1,4 +1,4 @@
-name: "Run ADE Automatically - Malicious"
+name: "ADE Auto Run - Malicious"
 description: "Run ADE Automatically"
 type: "triage_rule"
 triage_classification_changes: true
