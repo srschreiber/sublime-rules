@@ -5,6 +5,7 @@ triage_classification_changes: true
 triage_asa_complete: true
 active: false
 default_actions: ["ade_auto_run"]
+internal_type: "run_ade_automatically_spam"
 source: |
   (triage.trigger == "classification_changes" and triage.classification.classification =~ "spam")
   or (triage.trigger == "asa_complete" and triage.agents.asa.verdict =~ "spam")
