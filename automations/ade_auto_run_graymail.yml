@@ -7,4 +7,4 @@ active: false
 default_actions: ["ade_auto_run"]
 source: |
   (triage.trigger == "classification_changes" and triage.classification.classification =~ 'graymail')
-  or (triage.trigger == "asa_complete" and agents.asa.verdict =~ "graymail")
+  or (triage.trigger == "asa_complete" and triage.agents.asa.verdict =~ "graymail")
