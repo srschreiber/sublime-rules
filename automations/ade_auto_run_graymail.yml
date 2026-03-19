@@ -3,7 +3,7 @@ description: "Run ADE Automatically"
 type: "triage_rule"
 triage_classification_changes: true
 triage_asa_complete: true
-internal_type: 'run_ade_automatically_graymail
+internal_type: 'run_ade_automatically_graymail'
 active: false
 default_actions: ["ade_auto_run"]
 source: |
